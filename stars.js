@@ -12,3 +12,27 @@ var space  = setInterval(function(){
   }
 
 })
+
+// Do you know what time it is? Descending time.
+
+function descendingTime(a, b) {
+  let string = ""
+  for(let i = 0; i < b; i++){
+  	string = string + a;
+  
+  }
+
+  return string;
+
+}
+
+var number = 11;
+var printOut = setInterval(function(){
+  number--;	
+  console.log(descendingTime("*", number));
+}, 1000);
+  
+  setTimeout(function(){
+  	clearInterval(printOut)
+
+}, 11000);
