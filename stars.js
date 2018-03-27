@@ -1,4 +1,4 @@
-// Let's shine ( *'s )
+// Let's shine
 
 var stars = ("* ").repeat(10);
 var space  = setInterval(function(){
@@ -13,7 +13,7 @@ var space  = setInterval(function(){
 
 })
 
-// Do you know what time it is? Descending time.
+// What time is it? Descending time.
 
 function descendingTime(a, b) {
   let string = ""
