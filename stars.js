@@ -16,7 +16,7 @@ var space = setInterval(function(){ // Set function to create descending *'s fro
 // What time is it? Descending time.
 
 function descendingTime(a, b) { // Set function for print out. A, B are placeholders.
-  let string = "Hello " // Say Hello to each * as they descend (:
+  let string = "Hello there, " // Say Hello to each * as they descend (:
   for(let i = 0; i < b; i++){ // Loop to print out *'s 
   	string = string + a; 
   
